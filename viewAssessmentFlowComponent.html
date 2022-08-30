@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Peer Assessment Summary" icon-name="custom:custom18">
+        <div class="slds-m-around_medium">
+            <template if:true={assessments}>
+                <lightning-datatable
+                key-field="Id"
+                data={assessments}
+                columns={columns}
+                hide-checkbox-column="true"
+                sorted-by={sortBy}
+                sorted-direction={sortDirection}
+                onsort={doSorting}
+                ></lightning-datatable>
+            </template>
+        </div>
+      </lightning-card>
+</template>
