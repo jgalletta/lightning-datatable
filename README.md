@@ -2,4 +2,4 @@
 
 Basic setup of a lightning datatable LWC
 
-![Screenshot](Screen Shot 2021-09-09 at 9.04.25 AM.png)
+![alt text](https://github.com/jgalletta/lightning-datatable/blob/main/Screen%20Shot%202021-09-09%20at%209.04.25%20AM.png)
